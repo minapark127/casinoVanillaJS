@@ -1,0 +1,2 @@
+# casinoVanillaJS
+ practicing vanilla JS

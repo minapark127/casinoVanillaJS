@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div class="casino">
+      <h1>Welcome to Casino</h1>
+      <h2>🎲 Random Number Game 🎲</h2>
+      <h2 class="js-headingRange">🎰 Generate a number between 0 and 500 🎰</h2>
+      <h3>👇🏼Use slider to change the maximun number👇🏼</h3>
+      <div class="slider">
+        <input
+          type="range"
+          class="inputRange js-inputRange"
+          min="0"
+          max="500"
+          step="1"
+          value="500"
+          list="tickmarks"
+        />
+        <datalist id="tickmarks">
+          <option value="0" label="0"></option>
+          <option value="100" label="100"></option>
+          <option value="200" label="200"></option>
+          <option value="300" label="300"></option>
+          <option value="400" label="400"></option>
+          <option value="500" label="500"></option>
+        </datalist>
+      </div>
+
+      <form>
+        <label for="chooseNumber">Choose your number 👉🏼</label>
+        <input
+          type="number"
+          class="inputNumber js-inputNumber"
+          min="0"
+          id="chooseNumber"
+          name="chooseNumber"
+          placeholder="🍀Good Luck🍀"
+          required
+        />
+        <p>
+          <input type="submit" class="js-submit submit" value="🎲 Play 🎲" />
+        </p>
+      </form>
+      <div class="js-number number"></div>
+      <div class="js-result result"></div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

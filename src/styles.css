@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Serif&display=swap");
+
+body {
+  font-family: sans-serif;
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3647f09a-5a82-4617-9b2e-c996e8c1b7ce/d7intx0-70f5b93f-487e-4712-a8ce-925bee9b2d35.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi8zNjQ3ZjA5YS01YTgyLTQ2MTctOWIyZS1jOTk2ZThjMWI3Y2UvZDdpbnR4MC03MGY1YjkzZi00ODdlLTQ3MTItYThjZS05MjViZWU5YjJkMzUuanBnIn1dXX0.Fa5xm-pn1y1alWk3jJVjPd58mQbm3ZC-gCnQT3uBDSo");
+  height: 100vh;
+  overflow: hidden;
+  font-family: "IBM Plex Serif", serif;
+}
+.casino {
+  width: 80vw;
+  height: 85vh;
+  margin: 50px auto;
+  background-color: white;
+  padding: 10px 3%;
+  text-align: center;
+  overflow: scroll;
+}
+h1 {
+  font-size: 2.8em;
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.3em;
+  margin-bottom: 30px;
+}
+.slider {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.slider .inputRange {
+  width: 600px;
+}
+.slider #tickmarks {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 683px;
+  padding-left: 3px;
+}
+.slider option {
+  width: 100%;
+}
+form {
+  font-size: 1.3em;
+}
+form .inputNumber {
+  width: 150px;
+  font-size: 0.7em;
+  padding: 5px 10px;
+}
+form .submit {
+  border: none;
+  cursor: pointer;
+  font-family: "IBM Plex Serif", serif;
+  font-size: 1em;
+  padding: 5px 30px;
+  background-color: #b33939;
+  color: white;
+  letter-spacing: 1.8px;
+}
+
+form .submit:hover {
+  background-color: #2d3436;
+}
+.number,
+.result {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+  color: #b33939;
+}
