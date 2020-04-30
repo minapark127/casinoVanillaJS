@@ -1,2 +1,4 @@
 # casinoVanillaJS
- practicing vanilla JS
+
+practicing vanilla JS
+:make number-guessing game🎲
